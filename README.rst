@@ -1,9 +1,9 @@
 Kotti Development Buildout
 --------------------------
 
-This buildout uses mr.developer to pull in development versions of Kotti, deform, deformdemo and deform_bootstrap.
+This buildout uses `mr.developer <https://github.com/fschulze/mr.developer>`_ to pull in development versions of `Kotti <https://github.com/Pylons/Kotti>`_, `deform <https://github.com/Pylons/deform>`_, deformdemo and deform_bootstrap.
 
-If you have a fork of any of these packages, adjust the URL in the ``[sources]`` section.
+If you have a fork of any of these packages, adjust the URL in the ``[sources]`` section of the ``buildout.cfg``.
 
 Usage
 -----
@@ -28,3 +28,5 @@ Start deform_bootstrap's demo::
 To run tests for XXX::
 
     bin/py.test src/XXX
+
+See ``bin/py.test --help`` for more options, or check `py.test's documentation <http://pytest.org/latest/contents.html#toc>`_.
