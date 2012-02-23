@@ -30,3 +30,8 @@ To run tests for XXX::
     bin/py.test src/XXX
 
 See ``bin/py.test --help`` for more options, or check `py.test's documentation <http://pytest.org/latest/contents.html#toc>`_.
+
+Troubleshooting
+---------------
+
+If you get an error ``TypeError: Can't use implementer with classes.  Use one of the class-declaration functions instead.`` upon startup you might need to update your python to 2.7.2. You can try https://gist.github.com/1893409 to build up-to-date versions of python for development purposes. YMMV.
