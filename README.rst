@@ -25,11 +25,31 @@ Start deform_bootstrap's demo::
 
     bin/pserve src/deform_bootstrap/demo.ini
 
-To run tests for XXX::
+
+Running Tests
+-------------
+
+To run unit tests for XXX::
 
     bin/py.test src/XXX
 
 See ``bin/py.test --help`` for more options, or check `py.test's documentation <http://pytest.org/latest/contents.html#toc>`_.
+
+
+Running Selenium Tests
+----------------------
+
+``deformdemo`` and ``deform_bootstrap`` contain selenium tests that run against their respective instance. To run them, do this:
+
+In one Terminal window, fire up the selenium server::
+
+    bin/seleniumrc
+
+In another terminal start the demo instance (see above) and in a third window run the actual tests::
+
+    ./bin/py src/deform_bootstrap/deform_bootstrap/demo/test.py
+    ./bin/py src/deformdemo/deformdemo/test.py
+
 
 Troubleshooting
 ---------------
