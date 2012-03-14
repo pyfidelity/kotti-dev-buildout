@@ -54,4 +54,4 @@ In another terminal start the demo instance (see above) and in a third window ru
 Troubleshooting
 ---------------
 
-If you get an error ``TypeError: Can't use implementer with classes.  Use one of the class-declaration functions instead.`` upon startup you might need to update your python to 2.7.2. You can try https://gist.github.com/1893409 to build up-to-date versions of python for development purposes. YMMV.
+If you get an error ``TypeError: Can't use implementer with classes.  Use one of the class-declaration functions instead.`` upon startup you might need to update your python to 2.7.2. You can use the Makefile provided at http://is.gd/make_python to build up-to-date versions of python for development purposes. YMMV.
